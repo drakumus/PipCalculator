@@ -20,7 +20,7 @@ namespace PipCalculator
             //valid char values that can be passed.
             VALID_INPUTS = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '\b' };
 
-            InitializeComponent();
+            InitializeComponent(); 
             //add Event Handlers for KeyPress events
             pipBox.KeyPress += pipBox_KeyPress;
             goalBox.KeyPress += goalBox_KeyPress;
